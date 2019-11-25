@@ -52,35 +52,9 @@
             android:orientation="vertical"
             >
 
-            <EditText
-                android:inputType="text"
-                android:layout_weight="0.2"
-                android:layout_width="280dp"
-                android:layout_height="0dp"
-                android:hint="아이디"
-                android:layout_gravity="center"
-                android:padding="10dp"
-                android:textColor="#ffffffff"
-                android:textColorHint="#ffffffff"
-                android:id="@+id/idText"
-                android:layout_marginTop="40dp"
-             />
 
 
-            <EditText
-                android:singleLine="true"
-                android:layout_weight="0.2"
-                android:inputType="textPassword"
-                android:layout_width="280dp"
-                android:layout_height="0dp"
-                android:hint="비밀번호"
-                android:layout_gravity="center"
-                android:padding="10dp"
-                android:textColor="#ffffffff"
-                android:textColorHint="#ffffffff"
-                android:id="@+id/passwordText"
-                android:layout_marginTop="10dp"
-              />
+
 
             <Button
                 android:layout_weight="0.2"
