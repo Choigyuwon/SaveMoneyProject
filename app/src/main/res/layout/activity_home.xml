@@ -1,26 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@drawable/ic_menu_white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/플라잉_스코츠먼"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity"
-    android:backgroundTint="@android:color/black">
+    tools:context=".HomeActivity">
 
     <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:weightSum="1"
         android:layout_gravity="bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
         <Button
-            android:layout_weight="5"
-            android:layout_width="wrap_content"
+
+            android:drawableStart="@drawable/ic_add_circle_black_24dp"
+            android:drawableLeft="@drawable/ic_add_circle_black_24dp"
+            android:layout_weight="0.5"
+            android:id="@+id/btn_id"
+            android:text="로그인"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="로그인"/>
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A80F0A"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            />
         <Button
-            android:layout_weight="5"
-            android:layout_width="wrap_content"
+            app:fontFamily="sans-serif"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A80F0A"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
             android:text="회원가입"/>
 
 
