@@ -9,10 +9,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity"></activity>
-        <activity android:name=".Sign_UpActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".Find_ID_PWActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".Sign_UpActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
